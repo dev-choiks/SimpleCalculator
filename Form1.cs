@@ -38,8 +38,8 @@ namespace SimpleCalculator
 
         private void btnPlus_Click(object sender, EventArgs e) { SetOperation("+"); }
         private void btnMinu_Click(object sender, EventArgs e) { SetOperation("-"); }
-        private void btnMulti_Click(object sender, EventArgs e) { SetOperation("*"); }
-        private void btnDivi_Click(object sender, EventArgs e) { SetOperation("/"); }
+        private void btnMulti_Click(object sender, EventArgs e) { SetOperation("×"); }
+        private void btnDivi_Click(object sender, EventArgs e) { SetOperation("÷"); }
 
         private void SetOperation(string op)
         {
@@ -66,8 +66,8 @@ namespace SimpleCalculator
                 {
                     case "+": result = firstNum + secondNum; break;
                     case "-": result = firstNum - secondNum; break;
-                    case "*": result = firstNum * secondNum; break;
-                    case "/":
+                    case "×": result = firstNum * secondNum; break;
+                    case "÷":
                         if (secondNum == 0)
                         {
                             MessageBox.Show("0으로 나눌 수 없습니다!", "계산 오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
