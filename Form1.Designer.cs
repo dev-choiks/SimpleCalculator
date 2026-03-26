@@ -50,7 +50,7 @@
             btnDel = new Button();
             btnC = new Button();
             btnCe = new Button();
-            label1 = new Label();
+            lblTitle = new Label();
             btnLparen = new Button();
             btnRparen = new Button();
             SuspendLayout();
@@ -306,16 +306,16 @@
             btnCe.UseVisualStyleBackColor = true;
             btnCe.Click += btnCe_Click;
             // 
-            // label1
+            // lblTitle
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("한컴 말랑말랑 Bold", 25.8F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.ForeColor = Color.Coral;
-            label1.Location = new Point(114, 31);
-            label1.Name = "label1";
-            label1.Size = new Size(382, 56);
-            label1.TabIndex = 23;
-            label1.Text = "Simple Calculator";
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("한컴 말랑말랑 Bold", 25.8F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            lblTitle.ForeColor = Color.Coral;
+            lblTitle.Location = new Point(114, 31);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(382, 56);
+            lblTitle.TabIndex = 23;
+            lblTitle.Text = "Simple Calculator";
             // 
             // btnLparen
             // 
@@ -346,7 +346,7 @@
             ClientSize = new Size(616, 738);
             Controls.Add(btnLparen);
             Controls.Add(btnRparen);
-            Controls.Add(label1);
+            Controls.Add(lblTitle);
             Controls.Add(btnMinu);
             Controls.Add(btnDel);
             Controls.Add(btnC);
@@ -398,7 +398,7 @@
         private Button btnDel;
         private Button btnC;
         private Button btnCe;
-        private Label label1;
+        private Label lblTitle;
         private Button btnLparen;
         private Button btnRparen;
     }
