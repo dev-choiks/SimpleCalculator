@@ -73,6 +73,7 @@
             // 
             // btnOne
             // 
+            btnOne.BackColor = SystemColors.ControlDark;
             btnOne.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnOne.ForeColor = Color.Coral;
             btnOne.Location = new Point(57, 530);
@@ -80,11 +81,12 @@
             btnOne.Size = new Size(87, 80);
             btnOne.TabIndex = 3;
             btnOne.Text = "1";
-            btnOne.UseVisualStyleBackColor = true;
+            btnOne.UseVisualStyleBackColor = false;
             btnOne.Click += btnOne_Click;
             // 
             // btnTwo
             // 
+            btnTwo.BackColor = SystemColors.ControlDark;
             btnTwo.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnTwo.ForeColor = Color.Coral;
             btnTwo.Location = new Point(150, 530);
@@ -92,11 +94,12 @@
             btnTwo.Size = new Size(87, 79);
             btnTwo.TabIndex = 4;
             btnTwo.Text = "2";
-            btnTwo.UseVisualStyleBackColor = true;
+            btnTwo.UseVisualStyleBackColor = false;
             btnTwo.Click += btnTwo_Click;
             // 
             // btnThree
             // 
+            btnThree.BackColor = SystemColors.ControlDark;
             btnThree.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnThree.ForeColor = Color.Coral;
             btnThree.Location = new Point(243, 530);
@@ -104,11 +107,12 @@
             btnThree.Size = new Size(87, 79);
             btnThree.TabIndex = 5;
             btnThree.Text = "3";
-            btnThree.UseVisualStyleBackColor = true;
+            btnThree.UseVisualStyleBackColor = false;
             btnThree.Click += btnThree_Click;
             // 
             // btnDivi
             // 
+            btnDivi.BackColor = SystemColors.ControlDark;
             btnDivi.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnDivi.ForeColor = SystemColors.MenuHighlight;
             btnDivi.Location = new Point(336, 269);
@@ -116,11 +120,12 @@
             btnDivi.Size = new Size(87, 78);
             btnDivi.TabIndex = 6;
             btnDivi.Text = "÷";
-            btnDivi.UseVisualStyleBackColor = true;
+            btnDivi.UseVisualStyleBackColor = false;
             btnDivi.Click += btnDivi_Click;
             // 
             // btnFour
             // 
+            btnFour.BackColor = SystemColors.ControlDark;
             btnFour.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnFour.ForeColor = Color.Coral;
             btnFour.Location = new Point(57, 438);
@@ -128,11 +133,12 @@
             btnFour.Size = new Size(87, 80);
             btnFour.TabIndex = 7;
             btnFour.Text = "4";
-            btnFour.UseVisualStyleBackColor = true;
+            btnFour.UseVisualStyleBackColor = false;
             btnFour.Click += btnFour_Click;
             // 
             // btnFive
             // 
+            btnFive.BackColor = SystemColors.ControlDark;
             btnFive.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnFive.ForeColor = Color.Coral;
             btnFive.Location = new Point(150, 439);
@@ -140,11 +146,12 @@
             btnFive.Size = new Size(87, 79);
             btnFive.TabIndex = 8;
             btnFive.Text = "5";
-            btnFive.UseVisualStyleBackColor = true;
+            btnFive.UseVisualStyleBackColor = false;
             btnFive.Click += btnFive_Click;
             // 
             // btnSix
             // 
+            btnSix.BackColor = SystemColors.ControlDark;
             btnSix.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnSix.ForeColor = Color.Coral;
             btnSix.Location = new Point(243, 439);
@@ -152,11 +159,12 @@
             btnSix.Size = new Size(87, 79);
             btnSix.TabIndex = 9;
             btnSix.Text = "6";
-            btnSix.UseVisualStyleBackColor = true;
+            btnSix.UseVisualStyleBackColor = false;
             btnSix.Click += btnSix_Click;
             // 
             // btnMulti
             // 
+            btnMulti.BackColor = SystemColors.ControlDark;
             btnMulti.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnMulti.ForeColor = SystemColors.MenuHighlight;
             btnMulti.Location = new Point(336, 353);
@@ -164,11 +172,12 @@
             btnMulti.Size = new Size(87, 79);
             btnMulti.TabIndex = 10;
             btnMulti.Text = "×";
-            btnMulti.UseVisualStyleBackColor = true;
+            btnMulti.UseVisualStyleBackColor = false;
             btnMulti.Click += btnMulti_Click;
             // 
             // btnSeven
             // 
+            btnSeven.BackColor = SystemColors.ControlDark;
             btnSeven.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnSeven.ForeColor = Color.Coral;
             btnSeven.Location = new Point(57, 353);
@@ -176,11 +185,12 @@
             btnSeven.Size = new Size(87, 80);
             btnSeven.TabIndex = 11;
             btnSeven.Text = "7";
-            btnSeven.UseVisualStyleBackColor = true;
+            btnSeven.UseVisualStyleBackColor = false;
             btnSeven.Click += btnSeven_Click;
             // 
             // btnEight
             // 
+            btnEight.BackColor = SystemColors.ControlDark;
             btnEight.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnEight.ForeColor = Color.Coral;
             btnEight.Location = new Point(150, 353);
@@ -188,11 +198,12 @@
             btnEight.Size = new Size(87, 79);
             btnEight.TabIndex = 12;
             btnEight.Text = "8";
-            btnEight.UseVisualStyleBackColor = true;
+            btnEight.UseVisualStyleBackColor = false;
             btnEight.Click += btnEight_Click;
             // 
             // btnNine
             // 
+            btnNine.BackColor = SystemColors.ControlDark;
             btnNine.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnNine.ForeColor = Color.Coral;
             btnNine.Location = new Point(243, 353);
@@ -200,11 +211,12 @@
             btnNine.Size = new Size(87, 79);
             btnNine.TabIndex = 13;
             btnNine.Text = "9";
-            btnNine.UseVisualStyleBackColor = true;
+            btnNine.UseVisualStyleBackColor = false;
             btnNine.Click += btnNine_Click;
             // 
             // btnPlus
             // 
+            btnPlus.BackColor = SystemColors.ControlDark;
             btnPlus.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnPlus.ForeColor = SystemColors.MenuHighlight;
             btnPlus.Location = new Point(336, 530);
@@ -212,22 +224,25 @@
             btnPlus.Size = new Size(87, 79);
             btnPlus.TabIndex = 14;
             btnPlus.Text = "+";
-            btnPlus.UseVisualStyleBackColor = true;
+            btnPlus.UseVisualStyleBackColor = false;
             btnPlus.Click += btnPlus_Click;
             // 
             // btnPlma
             // 
+            btnPlma.BackColor = SystemColors.ControlDark;
             btnPlma.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
+            btnPlma.ForeColor = Color.Chocolate;
             btnPlma.Location = new Point(57, 616);
             btnPlma.Name = "btnPlma";
             btnPlma.Size = new Size(87, 80);
             btnPlma.TabIndex = 15;
             btnPlma.Text = "+/-";
-            btnPlma.UseVisualStyleBackColor = true;
+            btnPlma.UseVisualStyleBackColor = false;
             btnPlma.Click += btnPlma_Click;
             // 
             // btnZero
             // 
+            btnZero.BackColor = SystemColors.ControlDark;
             btnZero.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnZero.ForeColor = Color.Coral;
             btnZero.Location = new Point(150, 616);
@@ -235,34 +250,38 @@
             btnZero.Size = new Size(87, 79);
             btnZero.TabIndex = 16;
             btnZero.Text = "0";
-            btnZero.UseVisualStyleBackColor = true;
+            btnZero.UseVisualStyleBackColor = false;
             btnZero.Click += btnZero_Click;
             // 
             // btnDot
             // 
+            btnDot.BackColor = SystemColors.ControlDark;
             btnDot.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
+            btnDot.ForeColor = Color.Chocolate;
             btnDot.Location = new Point(243, 616);
             btnDot.Name = "btnDot";
             btnDot.Size = new Size(87, 79);
             btnDot.TabIndex = 17;
             btnDot.Text = ".";
-            btnDot.UseVisualStyleBackColor = true;
+            btnDot.UseVisualStyleBackColor = false;
             btnDot.Click += btnDot_Click;
             // 
             // btnEqual
             // 
+            btnEqual.BackColor = SystemColors.ControlDark;
             btnEqual.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
-            btnEqual.ForeColor = Color.Red;
+            btnEqual.ForeColor = Color.Chocolate;
             btnEqual.Location = new Point(336, 616);
             btnEqual.Name = "btnEqual";
             btnEqual.Size = new Size(87, 79);
             btnEqual.TabIndex = 18;
             btnEqual.Text = "=";
-            btnEqual.UseVisualStyleBackColor = true;
+            btnEqual.UseVisualStyleBackColor = false;
             btnEqual.Click += btnEqual_Click;
             // 
             // btnMinu
             // 
+            btnMinu.BackColor = SystemColors.ControlDark;
             btnMinu.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnMinu.ForeColor = SystemColors.MenuHighlight;
             btnMinu.Location = new Point(336, 439);
@@ -270,40 +289,46 @@
             btnMinu.Size = new Size(87, 79);
             btnMinu.TabIndex = 22;
             btnMinu.Text = "-";
-            btnMinu.UseVisualStyleBackColor = true;
+            btnMinu.UseVisualStyleBackColor = false;
             btnMinu.Click += btnMinu_Click;
             // 
             // btnDel
             // 
+            btnDel.BackColor = SystemColors.ControlDark;
             btnDel.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
+            btnDel.ForeColor = Color.Chocolate;
             btnDel.Location = new Point(243, 269);
             btnDel.Name = "btnDel";
             btnDel.Size = new Size(87, 79);
             btnDel.TabIndex = 21;
             btnDel.Text = "Del";
-            btnDel.UseVisualStyleBackColor = true;
+            btnDel.UseVisualStyleBackColor = false;
             btnDel.Click += btnDel_Click;
             // 
             // btnC
             // 
+            btnC.BackColor = SystemColors.ControlDark;
             btnC.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
+            btnC.ForeColor = Color.Chocolate;
             btnC.Location = new Point(150, 269);
             btnC.Name = "btnC";
             btnC.Size = new Size(87, 79);
             btnC.TabIndex = 20;
             btnC.Text = "C";
-            btnC.UseVisualStyleBackColor = true;
+            btnC.UseVisualStyleBackColor = false;
             btnC.Click += btnC_Click;
             // 
             // btnCe
             // 
+            btnCe.BackColor = SystemColors.ControlDark;
             btnCe.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
+            btnCe.ForeColor = Color.Chocolate;
             btnCe.Location = new Point(57, 268);
             btnCe.Name = "btnCe";
             btnCe.Size = new Size(87, 80);
             btnCe.TabIndex = 19;
             btnCe.Text = "CE";
-            btnCe.UseVisualStyleBackColor = true;
+            btnCe.UseVisualStyleBackColor = false;
             btnCe.Click += btnCe_Click;
             // 
             // lblTitle
@@ -319,25 +344,29 @@
             // 
             // btnLparen
             // 
+            btnLparen.BackColor = SystemColors.ControlDark;
             btnLparen.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnLparen.ForeColor = SystemColors.MenuHighlight;
-            btnLparen.Location = new Point(429, 354);
+            btnLparen.Location = new Point(429, 269);
             btnLparen.Name = "btnLparen";
             btnLparen.Size = new Size(87, 79);
             btnLparen.TabIndex = 25;
-            btnLparen.Text = ")";
-            btnLparen.UseVisualStyleBackColor = true;
+            btnLparen.Text = "(";
+            btnLparen.UseVisualStyleBackColor = false;
+            btnLparen.Click += btnLparen_Click;
             // 
             // btnRparen
             // 
+            btnRparen.BackColor = SystemColors.ControlDark;
             btnRparen.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnRparen.ForeColor = SystemColors.MenuHighlight;
-            btnRparen.Location = new Point(429, 270);
+            btnRparen.Location = new Point(429, 353);
             btnRparen.Name = "btnRparen";
             btnRparen.Size = new Size(87, 78);
             btnRparen.TabIndex = 24;
-            btnRparen.Text = "(";
-            btnRparen.UseVisualStyleBackColor = true;
+            btnRparen.Text = ")";
+            btnRparen.UseVisualStyleBackColor = false;
+            btnRparen.Click += btnRparen_Click;
             // 
             // Form1
             // 
