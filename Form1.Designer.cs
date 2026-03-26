@@ -56,26 +56,26 @@
             // txtInput
             // 
             txtInput.Font = new Font("한컴 말랑말랑 Bold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            txtInput.Location = new Point(54, 119);
+            txtInput.Location = new Point(57, 111);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(382, 50);
+            txtInput.Size = new Size(503, 50);
             txtInput.TabIndex = 1;
             // 
             // txtOutput
             // 
             txtOutput.Font = new Font("한컴 말랑말랑 Bold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            txtOutput.Location = new Point(54, 189);
+            txtOutput.Location = new Point(57, 181);
             txtOutput.Name = "txtOutput";
-            txtOutput.Size = new Size(382, 50);
+            txtOutput.Size = new Size(503, 50);
             txtOutput.TabIndex = 2;
             // 
             // btnOne
             // 
             btnOne.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnOne.ForeColor = Color.Coral;
-            btnOne.Location = new Point(57, 439);
+            btnOne.Location = new Point(114, 534);
             btnOne.Name = "btnOne";
-            btnOne.Size = new Size(87, 53);
+            btnOne.Size = new Size(87, 80);
             btnOne.TabIndex = 3;
             btnOne.Text = "1";
             btnOne.UseVisualStyleBackColor = true;
@@ -85,9 +85,9 @@
             // 
             btnTwo.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnTwo.ForeColor = Color.Coral;
-            btnTwo.Location = new Point(152, 440);
+            btnTwo.Location = new Point(207, 534);
             btnTwo.Name = "btnTwo";
-            btnTwo.Size = new Size(87, 53);
+            btnTwo.Size = new Size(87, 79);
             btnTwo.TabIndex = 4;
             btnTwo.Text = "2";
             btnTwo.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@
             // 
             btnThree.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnThree.ForeColor = Color.Coral;
-            btnThree.Location = new Point(247, 440);
+            btnThree.Location = new Point(300, 534);
             btnThree.Name = "btnThree";
-            btnThree.Size = new Size(87, 53);
+            btnThree.Size = new Size(87, 79);
             btnThree.TabIndex = 5;
             btnThree.Text = "3";
             btnThree.UseVisualStyleBackColor = true;
@@ -109,9 +109,9 @@
             // 
             btnDivi.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnDivi.ForeColor = SystemColors.MenuHighlight;
-            btnDivi.Location = new Point(340, 262);
+            btnDivi.Location = new Point(393, 273);
             btnDivi.Name = "btnDivi";
-            btnDivi.Size = new Size(87, 53);
+            btnDivi.Size = new Size(87, 78);
             btnDivi.TabIndex = 6;
             btnDivi.Text = "÷";
             btnDivi.UseVisualStyleBackColor = true;
@@ -121,9 +121,9 @@
             // 
             btnFour.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnFour.ForeColor = Color.Coral;
-            btnFour.Location = new Point(57, 381);
+            btnFour.Location = new Point(114, 442);
             btnFour.Name = "btnFour";
-            btnFour.Size = new Size(87, 53);
+            btnFour.Size = new Size(87, 80);
             btnFour.TabIndex = 7;
             btnFour.Text = "4";
             btnFour.UseVisualStyleBackColor = true;
@@ -133,9 +133,9 @@
             // 
             btnFive.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnFive.ForeColor = Color.Coral;
-            btnFive.Location = new Point(152, 382);
+            btnFive.Location = new Point(207, 443);
             btnFive.Name = "btnFive";
-            btnFive.Size = new Size(87, 53);
+            btnFive.Size = new Size(87, 79);
             btnFive.TabIndex = 8;
             btnFive.Text = "5";
             btnFive.UseVisualStyleBackColor = true;
@@ -145,9 +145,9 @@
             // 
             btnSix.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnSix.ForeColor = Color.Coral;
-            btnSix.Location = new Point(247, 381);
+            btnSix.Location = new Point(300, 443);
             btnSix.Name = "btnSix";
-            btnSix.Size = new Size(87, 53);
+            btnSix.Size = new Size(87, 79);
             btnSix.TabIndex = 9;
             btnSix.Text = "6";
             btnSix.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@
             // 
             btnMulti.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnMulti.ForeColor = SystemColors.MenuHighlight;
-            btnMulti.Location = new Point(340, 320);
+            btnMulti.Location = new Point(393, 357);
             btnMulti.Name = "btnMulti";
-            btnMulti.Size = new Size(87, 53);
+            btnMulti.Size = new Size(87, 79);
             btnMulti.TabIndex = 10;
             btnMulti.Text = "×";
             btnMulti.UseVisualStyleBackColor = true;
@@ -169,9 +169,9 @@
             // 
             btnSeven.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnSeven.ForeColor = Color.Coral;
-            btnSeven.Location = new Point(57, 322);
+            btnSeven.Location = new Point(114, 357);
             btnSeven.Name = "btnSeven";
-            btnSeven.Size = new Size(87, 53);
+            btnSeven.Size = new Size(87, 80);
             btnSeven.TabIndex = 11;
             btnSeven.Text = "7";
             btnSeven.UseVisualStyleBackColor = true;
@@ -181,9 +181,9 @@
             // 
             btnEight.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnEight.ForeColor = Color.Coral;
-            btnEight.Location = new Point(152, 323);
+            btnEight.Location = new Point(207, 357);
             btnEight.Name = "btnEight";
-            btnEight.Size = new Size(87, 53);
+            btnEight.Size = new Size(87, 79);
             btnEight.TabIndex = 12;
             btnEight.Text = "8";
             btnEight.UseVisualStyleBackColor = true;
@@ -193,9 +193,9 @@
             // 
             btnNine.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnNine.ForeColor = Color.Coral;
-            btnNine.Location = new Point(247, 322);
+            btnNine.Location = new Point(300, 357);
             btnNine.Name = "btnNine";
-            btnNine.Size = new Size(87, 53);
+            btnNine.Size = new Size(87, 79);
             btnNine.TabIndex = 13;
             btnNine.Text = "9";
             btnNine.UseVisualStyleBackColor = true;
@@ -205,9 +205,9 @@
             // 
             btnPlus.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnPlus.ForeColor = SystemColors.MenuHighlight;
-            btnPlus.Location = new Point(340, 439);
+            btnPlus.Location = new Point(393, 534);
             btnPlus.Name = "btnPlus";
-            btnPlus.Size = new Size(87, 53);
+            btnPlus.Size = new Size(87, 79);
             btnPlus.TabIndex = 14;
             btnPlus.Text = "+";
             btnPlus.UseVisualStyleBackColor = true;
@@ -216,9 +216,9 @@
             // btnPlma
             // 
             btnPlma.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
-            btnPlma.Location = new Point(57, 499);
+            btnPlma.Location = new Point(114, 620);
             btnPlma.Name = "btnPlma";
-            btnPlma.Size = new Size(87, 53);
+            btnPlma.Size = new Size(87, 80);
             btnPlma.TabIndex = 15;
             btnPlma.Text = "+/-";
             btnPlma.UseVisualStyleBackColor = true;
@@ -228,9 +228,9 @@
             // 
             btnZero.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnZero.ForeColor = Color.Coral;
-            btnZero.Location = new Point(152, 499);
+            btnZero.Location = new Point(207, 620);
             btnZero.Name = "btnZero";
-            btnZero.Size = new Size(87, 53);
+            btnZero.Size = new Size(87, 79);
             btnZero.TabIndex = 16;
             btnZero.Text = "0";
             btnZero.UseVisualStyleBackColor = true;
@@ -239,9 +239,9 @@
             // btnDot
             // 
             btnDot.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
-            btnDot.Location = new Point(247, 499);
+            btnDot.Location = new Point(300, 620);
             btnDot.Name = "btnDot";
-            btnDot.Size = new Size(87, 53);
+            btnDot.Size = new Size(87, 79);
             btnDot.TabIndex = 17;
             btnDot.Text = ".";
             btnDot.UseVisualStyleBackColor = true;
@@ -251,9 +251,9 @@
             // 
             btnEqual.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnEqual.ForeColor = Color.Red;
-            btnEqual.Location = new Point(340, 499);
+            btnEqual.Location = new Point(393, 620);
             btnEqual.Name = "btnEqual";
-            btnEqual.Size = new Size(87, 53);
+            btnEqual.Size = new Size(87, 79);
             btnEqual.TabIndex = 18;
             btnEqual.Text = "=";
             btnEqual.UseVisualStyleBackColor = true;
@@ -263,9 +263,9 @@
             // 
             btnMinu.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
             btnMinu.ForeColor = SystemColors.MenuHighlight;
-            btnMinu.Location = new Point(340, 379);
+            btnMinu.Location = new Point(393, 443);
             btnMinu.Name = "btnMinu";
-            btnMinu.Size = new Size(87, 53);
+            btnMinu.Size = new Size(87, 79);
             btnMinu.TabIndex = 22;
             btnMinu.Text = "-";
             btnMinu.UseVisualStyleBackColor = true;
@@ -274,9 +274,9 @@
             // btnDel
             // 
             btnDel.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
-            btnDel.Location = new Point(247, 263);
+            btnDel.Location = new Point(300, 273);
             btnDel.Name = "btnDel";
-            btnDel.Size = new Size(87, 53);
+            btnDel.Size = new Size(87, 79);
             btnDel.TabIndex = 21;
             btnDel.Text = "Del";
             btnDel.UseVisualStyleBackColor = true;
@@ -285,9 +285,9 @@
             // btnC
             // 
             btnC.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
-            btnC.Location = new Point(152, 263);
+            btnC.Location = new Point(207, 273);
             btnC.Name = "btnC";
-            btnC.Size = new Size(87, 53);
+            btnC.Size = new Size(87, 79);
             btnC.TabIndex = 20;
             btnC.Text = "C";
             btnC.UseVisualStyleBackColor = true;
@@ -296,9 +296,9 @@
             // btnCe
             // 
             btnCe.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold);
-            btnCe.Location = new Point(57, 263);
+            btnCe.Location = new Point(114, 272);
             btnCe.Name = "btnCe";
-            btnCe.Size = new Size(87, 53);
+            btnCe.Size = new Size(87, 80);
             btnCe.TabIndex = 19;
             btnCe.Text = "CE";
             btnCe.UseVisualStyleBackColor = true;
@@ -309,7 +309,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("한컴 말랑말랑 Bold", 25.8F, FontStyle.Bold, GraphicsUnit.Point, 129);
             label1.ForeColor = Color.Coral;
-            label1.Location = new Point(54, 40);
+            label1.Location = new Point(114, 31);
             label1.Name = "label1";
             label1.Size = new Size(382, 56);
             label1.TabIndex = 23;
@@ -319,7 +319,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(491, 605);
+            ClientSize = new Size(616, 738);
             Controls.Add(label1);
             Controls.Add(btnMinu);
             Controls.Add(btnDel);
