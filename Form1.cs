@@ -4,6 +4,8 @@ namespace SimpleCalculator
     {
         int firstNum = 0;
         string operation = "";
+        // 연산자를 누른 후 새 숫자를 입력할 차례인지 확인하는 변수
+        bool isNewNum = false;
 
         public Form1()
         {
@@ -23,6 +25,13 @@ namespace SimpleCalculator
 
         private void AppendNumber(string num)
         {
+            // 연산자를 누른 직후라면 아웃풋창을 비우고 새 숫자 시작
+            if (isNewNum)
+            {
+                txtOutput.Clear();
+                isNewNum = false;
+            }
+
             txtInput.Text += num;
             txtOutput.Text += num;
         }
@@ -39,7 +48,10 @@ namespace SimpleCalculator
                 firstNum = int.Parse(txtOutput.Text);
                 operation = op;
                 txtInput.Text += " " + op + " ";
-                txtOutput.Clear();
+
+                // 연산자를 눌러도 txtOutput의 숫자를 지우지 않고 유지함
+                // 대신 다음 숫자 입력 시 지워지도록 플래그 설정
+                isNewNum = true;
             }
         }
 
@@ -56,11 +68,10 @@ namespace SimpleCalculator
                     case "-": result = firstNum - secondNum; break;
                     case "*": result = firstNum * secondNum; break;
                     case "/":
-                        // 0으로 나누기 체크
                         if (secondNum == 0)
                         {
                             MessageBox.Show("0으로 나눌 수 없습니다!", "계산 오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            ClearAll(); // 에러 발생 시 초기화 함수 호출
+                            ClearAll();
                             return;
                         }
                         result = firstNum / secondNum;
@@ -70,40 +81,48 @@ namespace SimpleCalculator
                 txtInput.Text += " = " + result.ToString();
                 txtOutput.Text = result.ToString();
                 operation = "";
+                isNewNum = true; // 결과 출력 후 숫자 누르면 다시 새로 시작되도록 설정
             }
         }
 
-        // 초기화를 위한 공통 함수 (에러 발생 시 또는 C 버튼 클릭 시 사용)
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            ClearAll();
+        }
+
         private void ClearAll()
         {
             txtInput.Clear();
             txtOutput.Clear();
             firstNum = 0;
             operation = "";
+            isNewNum = false;
         }
+
         private void btnCe_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnC_Click(object sender, EventArgs e)
-        {
-
+            if (!string.IsNullOrEmpty(txtOutput.Text))
+            {
+                int lengthToRemove = txtOutput.Text.Length;
+                txtInput.Text = txtInput.Text.Substring(0, txtInput.Text.Length - lengthToRemove);
+                txtOutput.Clear();
+            }
         }
 
         private void btnDel_Click(object sender, EventArgs e)
         {
+            if (txtOutput.Text.Length > 0)
+            {
+                txtOutput.Text = txtOutput.Text.Substring(0, txtOutput.Text.Length - 1);
+            }
 
+            if (txtInput.Text.Length > 0 && char.IsDigit(txtInput.Text[txtInput.Text.Length - 1]))
+            {
+                txtInput.Text = txtInput.Text.Substring(0, txtInput.Text.Length - 1);
+            }
         }
 
-        private void btnPlma_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDot_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void btnPlma_Click(object sender, EventArgs e) { }
+        private void btnDot_Click(object sender, EventArgs e) { }
     }
 }
