@@ -115,6 +115,7 @@
             btnDivi.TabIndex = 6;
             btnDivi.Text = "÷";
             btnDivi.UseVisualStyleBackColor = true;
+            btnDivi.Click += btnDivi_Click;
             // 
             // btnFour
             // 
@@ -162,6 +163,7 @@
             btnMulti.TabIndex = 10;
             btnMulti.Text = "×";
             btnMulti.UseVisualStyleBackColor = true;
+            btnMulti.Click += btnMulti_Click;
             // 
             // btnSeven
             // 
@@ -220,6 +222,7 @@
             btnPlma.TabIndex = 15;
             btnPlma.Text = "+/-";
             btnPlma.UseVisualStyleBackColor = true;
+            btnPlma.Click += btnPlma_Click;
             // 
             // btnZero
             // 
@@ -242,6 +245,7 @@
             btnDot.TabIndex = 17;
             btnDot.Text = ".";
             btnDot.UseVisualStyleBackColor = true;
+            btnDot.Click += btnDot_Click;
             // 
             // btnEqual
             // 
@@ -265,6 +269,7 @@
             btnMinu.TabIndex = 22;
             btnMinu.Text = "-";
             btnMinu.UseVisualStyleBackColor = true;
+            btnMinu.Click += btnMinu_Click;
             // 
             // btnDel
             // 
@@ -275,6 +280,7 @@
             btnDel.TabIndex = 21;
             btnDel.Text = "Del";
             btnDel.UseVisualStyleBackColor = true;
+            btnDel.Click += btnDel_Click;
             // 
             // btnC
             // 
@@ -285,6 +291,7 @@
             btnC.TabIndex = 20;
             btnC.Text = "C";
             btnC.UseVisualStyleBackColor = true;
+            btnC.Click += btnC_Click;
             // 
             // btnCe
             // 
@@ -295,6 +302,7 @@
             btnCe.TabIndex = 19;
             btnCe.Text = "CE";
             btnCe.UseVisualStyleBackColor = true;
+            btnCe.Click += btnCe_Click;
             // 
             // label1
             // 
